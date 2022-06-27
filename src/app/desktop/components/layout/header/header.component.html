@@ -1,0 +1,102 @@
+<div class="app-header">
+  <div class="header">
+    <!-- <div class="content-header" >
+      <div class="dash-logo">
+        <div fxFlex="300px" class="logo-img">
+          <img class="stockit-logo" src="../../../../../assets/logo/logo.png" alt="stockit-logo">
+        </div>
+        <div class="dash-sep">
+          <i class="material-icons">
+          play_arrow
+          </i>
+        </div>
+      </div>
+
+      <div class="dashboard-menu">
+        <div class="menu-list">
+          <button class="font-styles active" routerLinkActive="active" routerLink="overview" mat-button >Dashboard</button>
+          <button class="font-styles" routerLinkActive="active" routerLink="opportunitypage" mat-button>Opportunity</button>
+          <button class="font-styles" routerLinkActive="active" (click)="matrix" mat-button>Category</button>
+
+        </div>
+      </div>
+      <div class="date-time">
+
+        <div>
+          <span class="date">{{ CurrentDate | date:'dd/MM/yyyy HH:mm:ss'}}</span>
+        </div>
+
+      </div>
+    </div> -->
+    <mat-toolbar class="mat-tool">
+      <mat-toolbar-row class="toolbarRow">
+        <div class="dash-logo">
+          <div fxFlex="300px" class="logo-img">
+            <img class="stockit-logo" src="assets/logo/logo.png" alt="stockit-logo">
+          </div>
+          <div class="dash-sep">
+            <i class="material-icons">
+              play_arrow
+            </i>
+          </div>
+        </div>
+        <div class="main-nav">
+          <div class="main-nav-wide-screen" fxShow="false" fxShow.lt-md="false">
+            <a class="nav-link main-link active" [routerLink]="['/overview']" mat-button fxShow.xs="false"
+              routerLinkActive="active">Dashboard</a>
+            <a class="nav-link main-link" [routerLink]="['/opportunitypage']" mat-button fxShow.xs="false"
+              routerLinkActive="active">Opportunity</a>
+            <a class="nav-link main-link" [routerLink]="['/matrix']" mat-button fxShow.xs="false"
+              routerLinkActive="active">Category</a>
+          </div>
+
+          <div class="date-time">
+            <!-- <span class="date">{{ CurrentDate | date:'dd/MM/yyyy HH:mm:ss'}}</span> -->
+            <button mat-button [matMenuTriggerFor]="menu">
+              <i class="material-icons">account_circle</i>
+            </button>
+            <!-- <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <i class="material-icons">account_circle</i>
+            Admin
+          </button>
+          <button mat-menu-item>
+            <i class="material-icons">settings</i>
+            Settings</button>
+          <button mat-menu-item>
+            <i class="material-icons">power_settings_new</i>
+            Logout</button>
+        </mat-menu> -->
+
+            <mat-menu #menu="matMenu">
+
+              <div class="acc-main">
+                <div class="acc-icon">
+                  <mat-icon>account_circle</mat-icon>
+                </div>
+                <div class="acc-head">Admin</div>
+              </div>
+              <div class="acc-main">
+                <div class="acc-icon">
+                  <mat-icon>settings</mat-icon>
+                </div>
+                <div class="acc-head">Settings</div>
+              </div>
+              <div class="acc-main">
+                <div class="acc-icon">
+                  <mat-icon>power_settings_new</mat-icon>
+                </div>
+                <div class="acc-head">Logout</div>
+              </div>
+            </mat-menu>
+          </div>
+        </div>
+
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+  </div>
+  <div class="header-filter-toolbar">
+    <app-filter-toolbar></app-filter-toolbar>
+  </div>
+</div>

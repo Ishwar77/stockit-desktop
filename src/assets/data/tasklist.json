@@ -1,0 +1,5 @@
+[
+    {"Si":1,"image":"assets/Icons/Task.png","title":"Out of Stock","description":"Colgate toothpaste is out of stock","value":"Assigned :10-1-2020"},
+    {"Si":2,"image":"assets/Icons/Task.png","title":"Inventory Check","description":"Monthly verification of stocks in inventory","value":"Assigned :10-1-2020"},
+    {"Si":3,"image":"assets/Icons/Task.png","title":"Order More","description":"Order more Livon hairserum","value":"Assigned :10-1-2020"}
+]

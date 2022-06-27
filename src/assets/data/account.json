@@ -1,0 +1,22 @@
+[
+  {
+    "slno": 1,
+    "account": "Admin"
+  },
+  {
+    "slno": 2,
+    "account": "Retailer"
+  },
+  {
+    "slno": 3,
+    "account": "Marketing"
+  },
+  {
+    "slno": 4,
+    "account": "Professional"
+  },
+  {
+    "slno": 5,
+    "account": "Sales Agent"
+  }
+]

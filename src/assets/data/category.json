@@ -1,0 +1,7 @@
+[
+    {"Si":1,"image":"assets/Icons/FC.jpg","title":"Face care","brand":"40%","osa":"50%","others":"80%"},
+    {"Si":2,"image":"assets/Icons/HC.jpg","title":"Hair care","brand":"50%","osa":"60%","others":90},
+    {"Si":3,"image":"assets/Icons/FC.jpg","title":"Body","brand":"60%","osa":"70%","others":"100%"},
+    {"Si":4,"image":"assets/Icons/HC.jpg","title":"Hair","brand":"70%","osa":"90%","others":"100%"},
+    {"Si":5,"image":"assets/Icons/VAS.jpg","title":"vaseline","brand":"80%","osa":"90%","others":"100%"}
+]

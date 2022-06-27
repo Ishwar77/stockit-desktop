@@ -1,0 +1,15 @@
+.app-map-v2-component {
+ // border: solid silver 1px;
+  height: 100%;
+  > .map-container {
+   // background-color: #f4f4f4;
+    height: 450px;
+    width: 420px;
+    border-radius: 3px;
+  }
+  > .score-container {
+  }
+}
+.loading {
+  // margin: 141px -75px;
+}

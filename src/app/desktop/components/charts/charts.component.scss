@@ -1,0 +1,225 @@
+.app-charts {
+  // width: 100%;
+  // padding: 10px 0px;
+
+  > .chart-section {
+    margin: 10px 10px;
+    > .app-charts-head {
+      width: 102%;
+      padding: 10px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+      color: #fff;
+      margin: -10px -10px;
+      > .OSA-head {
+        font-size: 25px;
+        font-weight: 500;
+      }
+    }
+    > .chart-level-main {
+      width: 100%;
+      display: flex;
+      align-items: baseline;
+
+      > .chart-levels {
+        height: 100%;
+    width: 420px;
+        margin: 10px 5px;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        > .category-levels {
+          background-color: #fff;
+          border: 1px solid #f4f4f4;
+          padding: 10px 10px;
+          height: 160px;
+          width: 416px;
+          margin: 0px 0px 0px -16px;
+          > .category-charts {
+            display: flex;
+            > .category-sections {
+              display: flex;
+              flex-direction: column;
+              > .chart-sec-1 {
+                display: flex;
+                > .chart-1 {
+                  background-color: #fd471c;
+                  width: 95px;
+                  height: 80px;
+                  color: #fff;
+                  padding: 0px 9px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+                > .chart-2 {
+                  width: 100px;
+                  background-color: #279607;
+                  color: #fff;
+                  padding: 0px 9px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+              }
+              > .chart-sec-2 {
+                > .chart-4 {
+                  height: auto;
+                  min-width: 150px;
+                  background-color: #0089d1;
+                  color: #fff;
+                  padding: 10px 10px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-top: 1px;
+                }
+              }
+            }
+
+            > .chart-3 {
+              background-color: #1f5f08;
+              color: #fff;
+              padding: 0px 9px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: -webkit-fill-available;
+            }
+          }
+        }
+        > .SKU-levels {
+          background-color: #fff;
+          border: 1px solid #f4f4f4;
+          padding: 10px 0px;
+          margin: 57px 0px 0px -15px;
+          height: 475px;
+        }
+      }
+      > .brand-level {
+        background-color: #fff;
+        border: 1px solid #f4f4f4;
+        padding: 10px 0px;
+        margin: 0px 0px 0px -6px;
+        height: 663px;
+        width: 420px;
+      }
+      > .chart-RCA {
+        margin: -18px 0px 1px -1px;
+        > .RCA-L1 {
+          background-color: #fff;
+          border: 1px solid #f4f4f4;
+          padding: 10px 0px;
+          margin: 27px 0px;
+          height: 310px;
+          > .RSA-main {
+            width: 100%;
+            min-width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            > .circle-img {
+              > .image-circle {
+                width: 100px;
+              }
+            }
+            > .rsa-cat {
+              display: flex;
+              flex-wrap: wrap;
+              margin: 14px 0px;
+              > .cat-lists {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 2px 0px;
+                font-size: 13px;
+                font-weight: 500;
+                > .circle {
+                  height: 20px;
+                  width: 20px;
+                  color: #0000;
+                  border-radius: 50%;
+                  margin: 0px 10px;
+                }
+              }
+            }
+          }
+        }
+        > .RCA-L2 {
+          background-color: #fff;
+          border: 1px solid #f4f4f4;
+          padding: 10px 0px;
+          margin: -96px 0px;
+          height: 310px;
+          > .RSA-main {
+            width: 100%;
+            min-width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            > .circle-img {
+              > .image-circle {
+                width: 100px;
+              }
+            }
+            > .rsa-cat {
+              display: flex;
+              flex-wrap: wrap;
+              margin: 14px 0px;
+              > .cat-lists {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 2px 0px;
+                font-size: 13px;
+                font-weight: 500;
+                > .circle {
+                  height: 20px;
+                  width: 20px;
+                  color: #0000;
+                  border-radius: 50%;
+                  margin: 0px 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.head-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  padding: 6px 0px;
+}
+
+.title-chart {
+  text-transform: uppercase;
+}
+.charts {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 9px;
+  text-align: center;
+  margin: 0px 1px;
+}
+
+.circle-1 {
+  background-color: #fd471c;
+}
+
+.circle-2 {
+  background-color: #0089d1;
+}
+.circle-3 {
+  background-color: #45a300;
+}

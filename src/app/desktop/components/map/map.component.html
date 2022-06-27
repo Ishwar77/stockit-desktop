@@ -1,0 +1,25 @@
+<div class="app-map">
+  <div class="map-section">
+    <div class="map-osa">
+      <div class="map">
+        <!-- <img class="image-map" src="./assets/charts/MapIndia.png" alt="Map-India"> -->
+        <app-map-v2-component (clickEvent)="onMapClick($event)"></app-map-v2-component>
+      </div>
+
+      <div class="OSA-ref">
+        <div class="osa-info">
+          <div class="osa-lists"><span class="circle circle-1"></span>OSA < 25%</div>
+              <div class="osa-lists"><span class="circle circle-2"></span>OSA >= 40%</div>
+              <div class="osa-lists"><span class="circle circle-3"></span>OSA > 75%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="location-info">
+        <span class="location-icon material-icons">
+          place
+        </span>
+        <div class="country-name">India</div>
+      </div>
+    </div>
+  </div>

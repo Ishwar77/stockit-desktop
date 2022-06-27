@@ -1,0 +1,13 @@
+.app-view-desktop {
+  height: 100%;
+  > .main-header {
+    height: 155px;
+  }
+  > .main-content {
+    height: calc(100vh - 200px);
+    overflow: hidden;
+  }
+  > .main-footer {
+    height: 44px;
+  }
+}

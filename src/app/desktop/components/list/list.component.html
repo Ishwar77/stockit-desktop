@@ -1,0 +1,26 @@
+<div class="app-list">
+  <div class="brand-head">
+
+  </div>
+<div class="brand-list" (mouseover) = "toggleview(true)" (mouseout) = "toggleview(false)">
+  <table mat-table [dataSource]="dataSource" matSort class="tabel-main">
+<!-- scrollY="true" maxHeight="200" bordered="true" -->
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th class="tbl-head" mat-header-cell *matHeaderCellDef mat-sort-header> Brand </th>
+      <td class="data-input1" mat-cell *matCellDef="let element">{{element.name}} . </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="weight">
+      <th class="tbl-head" mat-header-cell *matHeaderCellDef mat-sort-header> Score </th>
+      <td  class="data-input2" mat-cell *matCellDef="let element" [ngClass]="getScoreColorCLass(element.weight)"> {{element.weight}}&nbsp;{{unit}}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  <mat-paginator [class.visible] = "showView" [class.invisible] = "!showView" [pageSizeOptions]="[9]" showFirstLastButtons></mat-paginator>
+</div>
+</div>

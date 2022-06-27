@@ -1,0 +1,21 @@
+.content-main{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+display: flex;
+
+  >.content-map{
+    width: auto;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1px solid #f4f4f4;
+
+  }
+  >.opportunity-display{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    // background-color: silver;
+
+  }
+}

@@ -1,0 +1,45 @@
+
+<div class="app-category-matrix">
+  <div class="heading">
+    <div class="heading-sub">OSA Category Matrix</div>
+  </div>
+
+  <div class="matrix">
+    <table class="table-view" scrollY="true" maxHeight="200" bordered="true" mat-table [dataSource]="dataSource" matSort
+      class="mat-elevation-z8">
+      <ng-container matColumnDef="place">
+        <th class="table-headings" mat-header-cell *matHeaderCellDef mat-sort-header> Stores v/s Categories </th>
+        <td mat-cell *matCellDef="let element"> {{element.place}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="haircare">
+        <th class="table-headings" mat-header-cell *matHeaderCellDef mat-sort-header> Hair Care </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="getScoreColorCLass(element.haircare)"> {{element.haircare}}&nbsp;{{unit}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="babycare">
+        <th class="table-headings" mat-header-cell *matHeaderCellDef mat-sort-header> Baby Care </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="getScoreColorCLass(element.babycare)"> {{element.babycare}}&nbsp;{{unit}}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="oralcare">
+        <th class="table-headings" mat-header-cell *matHeaderCellDef mat-sort-header> Oral Care </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="getScoreColorCLass(element.oralcare)"> {{element.oralcare}}&nbsp;{{unit}}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="personalcare">
+        <th class="table-headings" mat-header-cell *matHeaderCellDef mat-sort-header> Personal Care </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="getScoreColorCLass(element.personalcare)"> {{element.personalcare}}&nbsp;{{unit}}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="petcare">
+        <th class="table-headings" mat-header-cell *matHeaderCellDef mat-sort-header> Pet Care </th>
+        <td mat-cell *matCellDef="let element" [ngClass]="getScoreColorCLass(element.petcare)"> {{element.petcare}}&nbsp;{{unit}}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[10]" showFirstLastButtons></mat-paginator>
+  </div>
+</div>

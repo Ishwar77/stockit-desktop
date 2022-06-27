@@ -1,0 +1,43 @@
+.app-category-matrix{
+ // margin: 10px 10px;
+  >.heading {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  //  margin: 10px 0px;
+    >.heading-sub{
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+
+  >.matrix {
+    height: calc(100vh - 250px);
+    background-color: #fff;
+  }
+
+}
+
+
+table {
+  min-width: 100%;
+}
+
+.table-view{
+  overflow: auto;
+}
+
+th.table-headings{
+  background-color: #fb6b23 !important;
+  text-transform: uppercase !important;
+  font-size: .9rem;
+  color: #fcf8f8 !important;
+}
+
+.pagination {
+  margin: 3px 492px 3px 34px;
+}

@@ -1,0 +1,605 @@
+[
+  {
+    "position": 1,
+    "name": "Day Cream",
+    "categories": "Personal Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "Himalaya",
+    "weight": 50
+  },
+  {
+    "position": 2,
+    "name": "Dipers",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "Himalaya",
+    "weight": 70
+  },
+  {
+    "position": 3,
+    "name": "Anti-HairFall Shampoo",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "Himalaya",
+    "weight": 68
+  },
+  {
+    "position": 4,
+    "name": "Face Wash",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "Himalaya",
+    "weight": 50
+  },
+  {
+    "position": 5,
+    "name": "Face Pack",
+    "categories": "Personal Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "Himalaya",
+    "weight": 10
+  },
+  {
+    "position": 6,
+    "name": "Gel Cream",
+    "categories": "Personal Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "Himalaya",
+    "weight": 80
+  },
+  {
+    "position": 7,
+    "name": "Tooth Paste",
+    "categories": "Oral Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "Himalaya",
+    "weight": 57
+  },
+  {
+    "position": 8,
+    "name": "Whitning Day Cream",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "Himalaya",
+    "weight": 50
+  },
+  {
+    "position": 14,
+    "name": "Ear Buds",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "Himalaya",
+    "weight": 80
+  },
+  {
+    "position": 22,
+    "name": "ToothPaste",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "Unilever",
+    "weight": 80
+  },
+  {
+    "position": 23,
+    "name": "Sunsilk",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "Unilever",
+    "weight": 35
+  },
+  {
+    "position": 24,
+    "name": "LUX",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "Unilever",
+    "weight": 50
+  },
+  {
+    "position": 25,
+    "name": "Ponds",
+    "categories": "Personal Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "Unilever",
+    "weight": 74
+  },
+  {
+    "position": 26,
+    "name": "Vaseline",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "Unilever",
+    "weight": 80
+  },
+  {
+    "position": 27,
+    "name": "Dove",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "Unilever",
+    "weight": 57
+  },
+  {
+    "position": 28,
+    "name": "Pepsodent",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "Unilever",
+    "weight": 66
+  },
+  {
+    "position": 29,
+    "name": "Pepsodent",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Whitefield, Bangalore",
+    "brand": "Unilever",
+    "weight": 25
+  },
+  {
+    "position": 30,
+    "name": "Lifeboy",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "Unilever",
+    "weight": 80
+  },
+  {
+    "position": 31,
+    "name": "Dove",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "Unilever",
+    "weight": 57
+  },
+  {
+    "position": 32,
+    "name": "Rexona",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "Unilever",
+    "weight": 50
+  },
+  {
+    "position": 33,
+    "name": "Sunsilk",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "Unilever",
+    "weight": 87
+  },
+  {
+    "position": 34,
+    "name": "LifeBoy",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "Unilever",
+    "weight": 80
+  },
+  {
+    "position": 35,
+    "name": "Sunsilk",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "Unilever",
+    "weight": 57
+  },
+  {
+    "position": 36,
+    "name": "Clear",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "Unilever",
+    "weight": 65
+  },
+  {
+    "position": 37,
+    "name": "Colgate",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "Unilever",
+    "weight": 10
+  },
+  {
+    "position": 38,
+    "name": "Baby Soap",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "Unilever",
+    "weight": 80
+  },
+  {
+    "position": 39,
+    "name": "Clear",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "Unilever",
+    "weight": 57
+  },
+  {
+    "position": 40,
+    "name": "Toothpaste",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "OralB",
+    "weight": 50
+  },
+  {
+    "position": 41,
+    "name": "ToothBrush",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "OralB",
+    "weight": 10
+  },
+  {
+    "position": 42,
+    "name": "Toothpaste",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "OralB",
+    "weight": 80
+  },
+  {
+    "position": 43,
+    "name": "Brush",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "OralB",
+    "weight": 57
+  },
+  {
+    "position": 44,
+    "name": "Mouth Freshner",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "OralB",
+    "weight": 50
+  },
+  {
+    "position": 45,
+    "name": "ToothPaste",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "OralB",
+    "weight": 10
+  },
+  {
+    "position": 46,
+    "name": "Toothpaste",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "OralB",
+    "weight": 80
+  },
+  {
+    "position": 47,
+    "name": "Brush",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "OralB",
+    "weight": 57
+  },
+  {
+    "position": 48,
+    "name": "ToothBrush",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "OralB",
+    "weight": 50
+  },
+  {
+    "position": 49,
+    "name": "Paste",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "OralB",
+    "weight": 10
+  },
+  {
+    "position": 50,
+    "name": "Brush",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "OralB",
+    "weight": 80
+  },
+  {
+    "position": 51,
+    "name": "Toothpaste",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "OralB",
+    "weight": 57
+  },
+  {
+    "position": 52,
+    "name": "Brush",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "OralB",
+    "weight": 50
+  },
+  {
+    "position": 53,
+    "name": "Toothpaste",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "OralB",
+    "weight": 10
+  },
+  {
+    "position": 54,
+    "name": "Freshner",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "OralB",
+    "weight": 80
+  },
+  {
+    "position": 55,
+    "name": "Toothpaste",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "OralB",
+    "weight": 57
+  },
+  {
+    "position": 56,
+    "name": "Freshner",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "OralB",
+    "weight": 50
+  },
+  {
+    "position": 57,
+    "name": "Toothpaste",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "ITC",
+    "weight": 10
+  },
+  {
+    "position": 58,
+    "name": "Toothbrush",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "ITC",
+    "weight": 80
+  },
+  {
+    "position": 59,
+    "name": "Fiama",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "ITC",
+    "weight": 57
+  },
+  {
+    "position": 60,
+    "name": "Fiama Shower gel",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "ITC",
+    "weight": 50
+  },
+  {
+    "position": 61,
+    "name": "Brush",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "ITC",
+    "weight": 10
+  },
+  {
+    "position": 62,
+    "name": "Savlon",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "ITC",
+    "weight": 80
+  },
+  {
+    "position": 63,
+    "name": "Vivel",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "ITC",
+    "weight": 57
+  },
+  {
+    "position": 64,
+    "name": "Mouth Freshner",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "ITC",
+    "weight": 50
+  },
+  {
+    "position": 65,
+    "name": "ToothPaste",
+    "categories": "Oral Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "ITC",
+    "weight": 10
+  },
+  {
+    "position": 66,
+    "name": "Baby Soap",
+    "categories": "Baby Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "ITC",
+    "weight": 80
+  },
+  {
+    "position": 67,
+    "name": "Vivel",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "ITC",
+    "weight": 57
+  },
+  {
+    "position": 68,
+    "name": "Fiama",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "ITC",
+    "weight": 50
+  },
+  {
+    "position": 69,
+    "name": "Vivel",
+    "categories": "Hair Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "ITC",
+    "weight": 10
+  },
+  {
+    "position": 70,
+    "name": "Fiama",
+    "categories": "Personal Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "ITC",
+    "weight": 80
+  },
+  {
+    "position": 71,
+    "name": "Drools",
+    "categories": "Pet Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "ITC",
+    "weight": 80
+  },
+  {
+    "position": 72,
+    "name": "Pedigree",
+    "categories": "Pet Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "ITC",
+    "weight": 57
+  },
+  {
+    "position": 73,
+    "name": "Pet Soap",
+    "categories": "Pet Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "ITC",
+    "weight": 50
+  },
+  {
+    "position": 74,
+    "name": "Drools",
+    "categories": "Pet Care",
+    "store": "More",
+    "place": "Kathriguppe, Bangalore",
+    "brand": "ITC",
+    "weight": 10
+  },
+  {
+    "position": 75,
+    "name": "Himalaya Pet Shampoo",
+    "categories": "Pet Care",
+    "store": "Reliance",
+    "place": "Whitefield, Bangalore",
+    "brand": "ITC",
+    "weight": 80
+  },
+  {
+    "position": 76,
+    "name": "Himalaya Pet Shampoo",
+    "categories": "Pet Care",
+    "store": "DMart",
+    "place": "Yelhanka, Bangalore",
+    "brand": "ITC",
+    "weight": 57
+  },
+  {
+    "position": 77,
+    "name": "Pet hair care",
+    "categories": "Pet Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "ITC",
+    "weight": 50
+  },
+  {
+    "position": 69,
+    "name": "Pet Hart care",
+    "categories": "Pet Care",
+    "store": "DMart",
+    "place": "Vijayanagar, Bangalore",
+    "brand": "Himalaya",
+    "weight": 10
+  },
+  {
+    "position": 70,
+    "name": "Shampoos",
+    "categories": "Pet Care",
+    "store": "Big Bazar",
+    "place": "Yeshwanthpur, Bangalore",
+    "brand": "Himalaya",
+    "weight": 80
+  }
+]

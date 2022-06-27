@@ -1,0 +1,7 @@
+[
+    {"slno":1,"image":"assets/Icons/Task.png","title":"Tasks","description":"Task Assigned to me"},
+    {"slno":2,"image":"assets/Icons/product.png","title":"Product","description":"Product availability"},
+    {"slno":3,"image":"assets/Icons/sale.png","title":"Sale","description":"Sales details"},
+    {"slno":4,"image":"assets/Icons/store.png","title":"Store","description":"Store Information"},
+    {"slno":5,"image":"assets/Icons/FAQ.png","title":"FAQ","description":"Help & support"}
+]

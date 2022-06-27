@@ -1,0 +1,30 @@
+table {
+  width: 50%;
+}
+
+td.data-input1 {
+  min-width: 212px;
+  text-align: left;
+  font-weight: 700;
+}
+td.data-input2 {
+  min-width: 100px;
+  text-align: center;
+
+}
+
+// th.tbl-head{
+//   text-align:center;
+// }
+// .brand-list {
+//   height: 350px;
+//   overflow: auto;
+// }
+
+.visible {
+  opacity: 1;
+  }
+
+  .invisible {
+  opacity: 0;
+  }

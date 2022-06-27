@@ -1,0 +1,91 @@
+<div class="filter-toolbar">
+  <div class="sub-filter">
+    <div class="filter-one">
+      <div class="avg-val">78.9</div>
+      <div class="avg-OSA">
+        <span>Avg OSA</span>
+        <span class="refresh-icon"><i class="material-icons" (click) = "click()">
+            loop
+          </i></span>
+      </div>
+    </div>
+    <div class="filter-two">
+      <div class="dropdown">
+        <div class="dropdown-select">
+          <mat-form-field>
+            <mat-label>Site</mat-label>
+            <mat-select (selectionChange) ="onSiteChange($event)" [value] = "selectedSite">
+              <mat-option *ngFor="let site of sites" [value]="site">
+                {{site.site}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="dropdown-select">
+          <mat-form-field>
+            <mat-label>Category</mat-label>
+            <mat-select (selectionChange) ="onCategoryChange($event)" [value] = "selectedCategory">
+              <mat-option *ngFor="let category of category" [value]="category">
+                {{category.category}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="dropdown-select">
+          <mat-form-field>
+            <mat-label>Brand</mat-label>
+            <mat-select (selectionChange) ="onBrandChange($event)" [value] = "selectedBrand">
+              <mat-option *ngFor="let brand of brand" [value]="brand">
+                {{brand.brand}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="dropdown-select">
+          <mat-form-field>
+            <mat-label>Store Name</mat-label>
+            <mat-select (selectionChange) ="onStoreChange($event)" [value] = "selectedStore">
+              <mat-option *ngFor="let storename of storename" [value]="storename.store">
+                {{storename.store}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="dropdown-select">
+          <mat-form-field>
+            <mat-label>Account</mat-label>
+            <mat-select (selectionChange) ="onAccountChange($event)" [value] = "selectedAccount">
+              <mat-option *ngFor="let account of account" [value]="account.account">
+                {{account.account}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="filter-three">
+      <!-- <i class="material-icons">account_circle</i> -->
+      <!-- <button mat-button [matMenuTriggerFor]="menu">
+        <i class="material-icons">account_circle</i>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <i class="material-icons">account_circle</i>
+          Admin
+        </button>
+        <button mat-menu-item>
+          <i class="material-icons">settings</i>
+          Settings</button>
+        <button mat-menu-item>
+          <i class="material-icons">power_settings_new</i>
+          Logout</button>
+      </mat-menu> -->
+    </div>
+  </div>
+</div>
